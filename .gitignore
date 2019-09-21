@@ -1,0 +1,31 @@
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+/.idea/**/*.xml
+/.idea/copyright/*
+/.idea/modules/*
+/.idea/libraries/*
+/.idea/.name
+/.idea/jvm.iml
+
+# VS-Code Metals plugin
+.metals/
+.bloop/
+
+# sublime
+*.sublime-project
+*.sublime-workspace
